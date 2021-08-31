@@ -1,0 +1,45 @@
+{{ if .Site.Data.home.portfolio.enable }}
+{{with .Site.Data.home.portfolio}}
+<section id="portfolio" class="page-section section appear clearfix"> 
+  <div class="container">
+    
+    <div class="heading text-center">
+      <!-- Heading -->
+      <h2>{{ .title }}</h2>                
+      <p>{{ .desc }}</p>
+    </div>
+
+    <div class="row">
+      <nav id="filter" class="col-md-12 text-center">
+        <ul>
+          <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+          {{ range .loc }}
+          <li><a href="#"  class="btn-theme btn-small" data-filter=".{{ .code }}" >{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="portfolio-items isotopeWrapper clearfix" id="3">
+            {{ range .blocks }}
+            <article class="col-md-4 col-sm-4 isotopeItem {{ .loc }}">
+                        	
+              <div class="portfolio-item">
+                <img src="images/portfolio/{{.img}}.jpg" alt="" />
+                 <div class="portfolio-desc align-center">
+                  <div class="folio-info">
+                    <a href="images/portfolio/img1.jpg" class="fancybox"><h5>{{ .title }}</h5>
+                    <i class="fa fa-expand fa-2x"></i></a>
+                   </div>                      
+                 </div>
+              </div>
+            </article>
+						{{ end }}
+          </div>                    
+        </div>
+      </div>
+    </div>    
+  </div>  
+</section> 
+{{ end }}
+{{ end }}

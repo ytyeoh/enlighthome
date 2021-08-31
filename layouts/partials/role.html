@@ -1,0 +1,16 @@
+{{ if .Site.Data.home.role.enable }}
+{{with .Site.Data.home.role}}
+<div id="role">
+  <h2>{{.title}}</h2>
+  <div class="pure-g">  
+    <div class="pure-u-1-1">
+      
+      <p>{{.desc | safeHTML }}</p>
+    </div>
+    <div class="pure-u-1-1">
+    	<img src="{{ .img }}" class="pure-img" alt="">
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ end }}

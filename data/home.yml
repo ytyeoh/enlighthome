@@ -1,0 +1,229 @@
+### HERO ###
+hero:
+  enable: true
+  blocks:
+    - title: "Our Role."
+      desc: "Maximize the return of your property."
+      url: "aboutUs"
+    - title: "Why Us?"
+      desc: "A Professional Management Company."
+      url: "services"
+    - title: "Reduce Costs."
+      desc: "Perfect way to save money and maximise investments."
+      url: "contactUs"
+### MAIN ###
+main:
+  enable: true
+  title: "Our Services"
+  desc: "We are a group of people who believe in good company culture, good working attitude will make us strong and compatible in the market. We provide good services to our client by standardize our operating procedure, clear accounting book, quick respond for any emergency issues,fair tendering for major repairing."
+  blocks:
+    - title: "Property Valuations"
+      desc: "Provide accurate market outlook and forecast through data monitoring and trend analysis."
+      icon: "fa fa-money"
+      url: "valuation"
+    - title: "Property Managements"
+      desc: "Providing the most efficient and pratical way to manage your property and to enhance building value."
+      icon: "fa fa-handshake-o"
+      url: "management"
+    - title: "Property Agency"
+      desc: "Reliable property agents for your home buying, selling, and rentals."
+      icon: "fa fa-search" 
+      url: "agency"
+    - title: "Property Auctioning"
+      desc: " To participate or bid at an auction."
+      icon: "fa fa-gavel"      
+      url: "auction"
+### ABOUT ###
+about:
+  enable: true
+  title: "About Us"
+  desc: "Established in 2015, EAD is a valid registered license member under Minister of Finance (MOF) - Board of Valuers, Appraisers, Estate Agents & Property Managers (BOVEAPM). We are particing to undergo Three(3) professional industry of Property Valuation [V(3)0081], Property Management [PM(1)2806] and Estate Agency [E(3)1782]."
+  blocks:
+    - title: "Admin"
+      desc: "All sorts of Documentation. Such as Proper Filing System, Noticing, Facility Booking, Collections."
+      icon: "fa fa-user"
+    - title: "Operation"
+      desc: "Quick respond on problem solving. Experience crew handle complaints defects, SOP."
+      icon: "fa fa-home"
+    - title: "Accounts"
+      desc: "Owner Account tracking, operating expenses within budgeting. Effectiveness of maintaining."
+      icon: "fa fa-desktop"
+### Agency ###
+agency:
+  enable: true
+  title: "Property Agency"
+  desc: "Reliable property agents for your home buying, selling, and rentals."
+  blocks:
+    - title: "Local Authority"
+      desc: "Good Support from local authority such as PBA, JKR, TNB, MBPP, Police, Bomba and COB."
+      icon: "fa fa-circle"
+    - title: "24 Hours Respond Crew"
+      desc: "We will allocate a 24 hours service crew who help to stand by for any emergency matter arise."
+      icon: "fa fa-circle"
+    - title: "Panel Service Providers"
+      desc: "Quick respond and reliable service provider are in our list. We already had long term connection and good reputation."
+      icon: "fa fa-circle"
+    - title: "Individual Management Plans"
+      desc: "By entrusting your property to us, you receive a complete property management service which will protect your investment, secure your return and free you from the hassle of inspections, maintenance checks and chasing monthly maintenance fee."
+      icon: "fa fa-circle" 
+    - title: "Cost Savings"
+      desc: "We will manage the property for you, ensuring vacancies are negligible; repair and modernize the property; and even manage the taxes. By working with them, you can save time and money, which turns your initial investment back into the gold you always knew it was."
+      icon: "fa fa-circle"
+    - title: "Recovery"
+      desc: "The universe is all of time and space and its contents. It includes planets, moon, minor plants, stars, galaxies, the contents of intergalactics space, and all matter and energy."
+      icon: "fa fa-circle"
+### Valuations ###
+valuation:
+  enable: true
+  title: "Valuation Services"
+  desc: "EAD Management Property takes the hassle out of finding appropriate tenants, we provide full and cohesive services to ensure we maximize the return on your property. We invest heavily in our people, processes and technology, and provide a dedicated team that delivers the highest standard of service, efficiently and effectively."
+  blocks:
+    - title: "Local Authority"
+      desc: "Good Support from local authority such as PBA, JKR, TNB, MBPP, Police, Bomba and COB."
+      icon: "fa fa-cog"
+    - title: "24 Hours Respond Crew"
+      desc: "We will allocate a 24 hours service crew who help to stand by for any emergency matter arise."
+      icon: "fa fa-cog"
+    - title: "Panel Service Providers"
+      desc: "Quick respond and reliable service provider are in our list. We already had long term connection and good reputation."
+      icon: "fa fa-cog"
+    - title: "Individual Management Plans"
+      desc: "By entrusting your property to us, you receive a complete property management service which will protect your investment, secure your return and free you from the hassle of inspections, maintenance checks and chasing monthly maintenance fee."
+      icon: "fa fa-cog" 
+    - title: "Cost Savings"
+      desc: "We will manage the property for you, ensuring vacancies are negligible; repair and modernize the property; and even manage the taxes. By working with them, you can save time and money, which turns your initial investment back into the gold you always knew it was."
+      icon: "fa fa-cog"
+    - title: "Recovery"
+      desc: "The universe is all of time and space and its contents. It includes planets, moon, minor plants, stars, galaxies, the contents of intergalactics space, and all matter and energy."
+      icon: "fa fa-cog"
+### Managements ###
+management:
+  enable: true
+  title: "Managements Services"
+  desc: "EAD Management Property takes the hassle out of finding appropriate tenants, we provide full and cohesive services to ensure we maximize the return on your property. We invest heavily in our people, processes and technology, and provide a dedicated team that delivers the highest standard of service, efficiently and effectively."
+  blocks:
+    - title: "Local Authority"
+      desc: "Good Support from local authority such as PBA, JKR, TNB, MBPP, Police, Bomba and COB."
+      icon: "fa fa-cloud"
+    - title: "24 Hours Respond Crew"
+      desc: "We will allocate a 24 hours service crew who help to stand by for any emergency matter arise."
+      icon: "fa fa-cloud"
+    - title: "Panel Service Providers"
+      desc: "Quick respond and reliable service provider are in our list. We already had long term connection and good reputation."
+      icon: "fa fa-cloud"
+    - title: "Individual Management Plans"
+      desc: "By entrusting your property to us, you receive a complete property management service which will protect your investment, secure your return and free you from the hassle of inspections, maintenance checks and chasing monthly maintenance fee."
+      icon: "fa fa-cloud" 
+    - title: "Cost Savings"
+      desc: "We will manage the property for you, ensuring vacancies are negligible; repair and modernize the property; and even manage the taxes. By working with them, you can save time and money, which turns your initial investment back into the gold you always knew it was."
+      icon: "fa fa-cloud"
+    - title: "Recovery"
+      desc: "The universe is all of time and space and its contents. It includes planets, moon, minor plants, stars, galaxies, the contents of intergalactics space, and all matter and energy."
+      icon: "fa fa-cloud"
+### Auctioning ###
+auction:
+  enable: true
+  title: "Auctioning Services"
+  desc: "EAD Management Property takes the hassle out of finding appropriate tenants, we provide full and cohesive services to ensure we maximize the return on your property. We invest heavily in our people, processes and technology, and provide a dedicated team that delivers the highest standard of service, efficiently and effectively."
+  blocks:
+    - title: "Local Authority"
+      desc: "Good Support from local authority such as PBA, JKR, TNB, MBPP, Police, Bomba and COB."
+      icon: "fa fa-star"
+    - title: "24 Hours Respond Crew"
+      desc: "We will allocate a 24 hours service crew who help to stand by for any emergency matter arise."
+      icon: "fa fa-star"
+    - title: "Panel Service Providers"
+      desc: "Quick respond and reliable service provider are in our list. We already had long term connection and good reputation."
+      icon: "fa fa-star"
+    - title: "Individual Management Plans"
+      desc: "By entrusting your property to us, you receive a complete property management service which will protect your investment, secure your return and free you from the hassle of inspections, maintenance checks and chasing monthly maintenance fee."
+      icon: "fa fa-star" 
+    - title: "Cost Savings"
+      desc: "We will manage the property for you, ensuring vacancies are negligible; repair and modernize the property; and even manage the taxes. By working with them, you can save time and money, which turns your initial investment back into the gold you always knew it was."
+      icon: "fa fa-star"
+    - title: "Recovery"
+      desc: "The universe is all of time and space and its contents. It includes planets, moon, minor plants, stars, galaxies, the contents of intergalactics space, and all matter and energy."
+      icon: "fa fa-star"
+### portfolio ###
+portfolio:
+  enable: true
+  title: "Our Works"
+  desc: "We are experience in all types of problem solving which JMB/MC would facing."
+  loc:
+    - name: "Penang"
+      code: "pg"
+    - name: "Kuala Lumpur"
+      code: "kl"
+  blocks:
+    - title: "admin"
+      desc: "sdf"
+      img: "img2"
+      loc: "pg"
+    - title: "bbb"
+      desc: "sdf"
+      img: "img1"
+      loc: "kl"
+    - title: "ccc"
+      desc: "sdf"
+      img: "img1"
+      loc: "pg"
+    - title: "ccc"
+      desc: "sdf"
+      img: "img1"
+      loc: "pg"
+    - title: "ccc"
+      desc: "sdf"
+      img: "img1"
+      loc: "kl"
+    - title: "ccc"
+      desc: "sdf"
+      img: "img1"
+      loc: "pg"
+### TEAM ###
+team:
+  enable: true
+  title: "Our Team"
+  desc: "We are People with Vision. We always keep good connection with our service provider and we trust each other just to make sure every work can be done smoothly."
+  blocks:
+    - title: "Admin-Clerk"
+      desc: "Compiling, maintaining and updating company records."
+      name: "Sherlyn Tan"
+      img: "photo-1"
+    - title: "Managing Director"
+      desc: "Developing and executing business strategies to achieve short and long-term goals."
+      name: "Eugene Choong"
+      img: "photo-3"
+    - title: "Sales Manager"
+      desc: "Responsible for leading sales teams to reach sales targets"
+      name: "Jaskson Lim"
+      img: "photo-1"
+    - title: "Sales Executive"
+      desc: "Responsible for helping build up a business by identifying new business prospects and selling product to them."
+      name: "Carol Wong" 
+      img: "photo-1"
+  title2: "What our clients say"
+  desc2: "We are very fortunate to have formed excellent partnerships with many of our clients. We have also formed true friendships. View our client testimonials."
+  cus:
+    - title: "Janet Leong"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit majority have suffered alteration"
+      name: "customer name"
+    - title: "Benson Lee"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit majority have suffered alteration"
+      name: "customer name"
+
+###FOOTER###
+footer:
+  enable: true
+  title: "GET IN TOUCH"
+  desc: "Let us know how we can help and set up a time to chat with us."
+  map: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7943.818570787231!2d100.3114235!3d5.4307492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b147be3eb3%3A0xd3e4cda53eee78bb!2sEAD%20Property!5e0!3m2!1sen!2smy!4v1630166046147!5m2!1sen!2smy" width="100%" height="300" frameborder="0" style="border:0"></iframe>'
+  address: "44, Jalan Cantonment,<br>Pulau Tikus, 10350 George Town, Pulau Pinang.<br>"
+  whatapps: "0123030677"
+  phone: "04-229 9144"
+  email: "info@abc.com"
+### Call to Action ###
+cta:
+  enable: true
+  header: "transform your business now"
+  content: "sss"
+  link: "https://api.whatsapp.com/send?phone=60164864000&text=Hi%2C%20%0AI%20would%20like%20to%20know%20more."

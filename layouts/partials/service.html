@@ -1,0 +1,30 @@
+{{ if .service.enable }}
+<section id="{{ .service.title }}" class="services page-section {{.bd}}">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="heading text-center">
+					<!-- Heading -->  
+					<h2>{{ .service.title }}</h2>               
+					<p>{{ .service.desc }}</p>
+				</div>                                            
+			</div>
+		</div>
+		<div class="row">
+      {{ range .service.blocks }}
+				<div class="col-md-4 col-sm-6">
+					<div class="media">
+						<div class="pull-left">
+							<i class="{{ .icon }} color fa-5x"></i>
+						</div>
+						<div class="media-body">
+							<h3 class="media-heading">{{ .title }}</h3>
+							<p>{{ .desc }}</p>
+						</div>
+					</div>
+				</div><!--/.col-md-4-->
+      {{ end }}
+		</div><!--/.row-->
+	</div><!--/.container-->
+</section>
+{{ end }}

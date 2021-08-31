@@ -1,0 +1,25 @@
+{{ if .Site.Data.home.hero.enable }}
+{{with .Site.Data.home.hero}}
+<section id="home" class="page-section">
+    <div class="banner-container">      
+      <div class="container banner-content">
+        <div id="da-slider" class="da-slider">
+        	{{ range .blocks }}
+					<div class="da-slide">
+						<h2>{{ .title}}</h2>
+						<p>{{ .desc }}</p>
+						<a href="#{{ .url }}" class="da-link button-outline">Read more</a>
+						<div class="da-img"></div>
+					</div>
+					{{ end }}
+					<nav class="da-arrows">
+						<span class="da-arrows-prev"></span>
+						<span class="da-arrows-next"></span>
+					</nav>
+				</div>
+	    </div>
+    </div>	
+    <!--/.container-->
+</section> 
+{{ end }}
+{{ end }}

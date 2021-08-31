@@ -1,0 +1,26 @@
+{{ if .Site.Data.home.main.enable }}
+{{with .Site.Data.home.main}}
+<section id="main" class="page-section pDark pdingBtm30">
+  <div class="container">
+    <div class="heading text-center">
+      <!-- Heading -->
+      <h2>{{ .title }}</h2>                
+      <p>{{ .desc }}</p>
+    </div>
+    
+    <div class="row">
+      {{ range .blocks }}
+      <div class="col tray col-md-3 col-sm-12"> 
+        <div class=" text-center">                      
+          <h3><i class="{{.icon}} color"></i> &nbsp;{{.title}}</h3>
+          <!-- Paragraph -->
+          <p>{{.desc}}</p>                    
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <!--/.container-->
+</section>
+{{ end }}
+{{ end }}
