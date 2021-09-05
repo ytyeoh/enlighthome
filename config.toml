@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+# baseURL = 'https://hmsconcept.com.my/demo/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'HMS concpet'

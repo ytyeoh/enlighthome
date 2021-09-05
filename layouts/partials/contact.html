@@ -1,0 +1,25 @@
+{{ if .Site.Data.home.contact.enable }}
+{{with .Site.Data.home.contact}}
+<section id="{{ .title }}" class="contacts page-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="heading text-center">
+					<!-- Heading -->  
+					<h2>{{ .title }}</h2>               
+					<p>{{ .desc }}</p>
+				</div>                                            
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				Email: {{ .email}}
+			</div>
+			<div class="col-md-12">
+				Contact Number: {{.phone}}
+			</div>
+		</div><!--/.row-->
+	</div><!--/.container-->
+</section>
+{{ end }}
+{{ end }}
