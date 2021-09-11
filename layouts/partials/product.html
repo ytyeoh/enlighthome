@@ -4,13 +4,14 @@
   <div class="container">
       <h2><span>{{ .title }}</span></h2>
       <div class="row">
-        {{end}}
 {{end}}
-      {{ range .Site.RegularPages }}
+{{end}}
+      {{ range first 6 (where site.RegularPages "Type" "products") }}
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <div class="newsBox">
             <div class="thumbnail">
-              <figure><time>{{.Title}}</time><img src="/images/{{ .Params.img }}.jpg" alt=""></figure>
+              <figure><time>{{.Title}}</time>
+                <a href="{{.Permalink}}"><img src="/images/{{ .Params.img }}.jpg" alt=""></a></figure>
               <div class="caption maxheight2"><div class="box_inner">
                  {{ .Summary }}
               </div></div>
