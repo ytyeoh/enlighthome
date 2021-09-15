@@ -1,6 +1,6 @@
 ---
 title: "N-MEPLUZ"
-img: "N-MEPLUZz.webp"
+img: "N-MEPLUZ.webp"
 date: 2020-03-04T19:18:46-06:00
 weight: 10
 

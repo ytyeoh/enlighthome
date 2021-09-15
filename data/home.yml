@@ -75,7 +75,8 @@ footer:
   whatapps: "017-4000562"
   phone: "04-229 9144"
   email: "info@abc.com"
-  facebook: "facebook.com"
+  facebook: "https://www.facebook.com/HMSC16220/"
+  instagram: "https://www.instagram.com/hmsconcept.my/"
 ### Call to Action ###
 cta:
   enable: true
