@@ -9,16 +9,16 @@ draft: false
 description: "The answer for a young and energetic heart!"
 folder: "b"
 images:
-  - image: "images/products/a/1.webp"
-  - image: "images/products/a/2.webp"
-  - image: "images/products/a/3.webp"
-  - image: "images/products/a/4.webp"
-  - image: "images/products/a/5.webp"
-  - image: "images/products/a/6.webp"
-  - image: "images/products/a/7.webp"
-  - image: "images/products/a/8.webp"
-  - image: "images/products/a/9.webp"
-  - image: "images/products/a/10.webp"
+  - image: "images/products/b/1.webp"
+  - image: "images/products/b/2.webp"
+  - image: "images/products/b/3.webp"
+  - image: "images/products/b/4.webp"
+  - image: "images/products/b/5.webp"
+  - image: "images/products/b/6.webp"
+  - image: "images/products/b/7.webp"
+  - image: "images/products/b/8.webp"
+  - image: "images/products/b/9.webp"
+  - image: "images/products/b/10.webp"
 ---
 
 The answer for a young and energetic heart!
