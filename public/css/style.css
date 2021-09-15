@@ -768,6 +768,10 @@ margin-bottom:12px;
 .dropdown-menu {
   z-index: 10002;
 }
+.navbar-inverse .navbar-nav > .open > a {
+    background: none;
+    color: black;
+}
 /**
   MEDIA QUERIES
 */

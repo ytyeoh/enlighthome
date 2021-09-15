@@ -1,6 +1,6 @@
 ---
 title: "G-MELON"
-img: "E-Nutri.webp"
+img: "G-MELON.webp"
 date: 2020-03-04T19:18:46-06:00
 weight: 5
 type: "products"
