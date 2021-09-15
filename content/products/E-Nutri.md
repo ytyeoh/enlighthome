@@ -9,16 +9,16 @@ draft: false
 description: "The Most Versatile Nutrient for the Eyes & Skin."
 folder: "d"
 images:
-  - image: "images/products/a/1.webp"
-  - image: "images/products/a/2.webp"
-  - image: "images/products/a/3.webp"
-  - image: "images/products/a/4.webp"
-  - image: "images/products/a/5.webp"
-  - image: "images/products/a/6.webp"
-  - image: "images/products/a/7.webp"
-  - image: "images/products/a/8.webp"
-  - image: "images/products/a/9.webp"
-  - image: "images/products/a/10.webp"
+  - image: "images/products/d/1.webp"
+  - image: "images/products/d/2.webp"
+  - image: "images/products/d/3.webp"
+  - image: "images/products/d/4.webp"
+  - image: "images/products/d/5.webp"
+  - image: "images/products/d/6.webp"
+  - image: "images/products/d/7.webp"
+  - image: "images/products/d/8.webp"
+  - image: "images/products/d/9.webp"
+  - image: "images/products/d/10.webp"
 ---
 
 The Most Versatile Nutrient for the Eyes & Skin.
