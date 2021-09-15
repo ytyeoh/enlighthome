@@ -3,6 +3,7 @@ title: "Daily Multigrains"
 img: "Daily Multigrains.webp"
 date: 2020-03-04T19:18:46-06:00
 weight: 3
+type: "products"
 
 draft: false
 
