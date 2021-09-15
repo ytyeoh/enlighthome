@@ -62,9 +62,9 @@ product:
 ### contact ###
 contact:
   enable: true
-  title: "Contact Us"
-  email: "ef@erf.com"
-  phone: "012933"
+  title: "Contact Us ~ HMS CONCEPT SDN.BHD"
+  email: "hms@hmsconcept.com.my"
+  phone: "017-4000562"
 ###FOOTER###
 footer:
   enable: true
@@ -72,7 +72,7 @@ footer:
   desc: "Let us know how we can help and set up a time to chat with us."
   map: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7943.818570787231!2d100.3114235!3d5.4307492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3b147be3eb3%3A0xd3e4cda53eee78bb!2sEAD%20Property!5e0!3m2!1sen!2smy!4v1630166046147!5m2!1sen!2smy" width="100%" height="300" frameborder="0" style="border:0"></iframe>'
   address: "44, Jalan Cantonment,<br>Pulau Tikus, 10350 George Town, Pulau Pinang.<br>"
-  whatapps: "0123030677"
+  whatapps: "017-4000562"
   phone: "04-229 9144"
   email: "info@abc.com"
   facebook: "facebook.com"
