@@ -13,7 +13,8 @@
               <figure><time>{{.Title}}</time>
                 <a href="{{.Permalink}}"><img src="/images/root/{{ .Params.img }}" alt=""></a></figure>
               <div class="caption maxheight2"><div class="box_inner">
-                 {{ slicestr .Summary 0 30 }}
+                 {{ slicestr .Summary }}
+                 <!--  slicestr .Summary 0 20  -->
               </div></div>
             </div>
           </div>

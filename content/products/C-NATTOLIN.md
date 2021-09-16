@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "(30 vegecaps/bottle)(Tripack)"
+description: "(30 vegecaps/bottle)(Triple pack)"
 folder: "a"
 images:
   - image: "images/products/a/1.webp"
