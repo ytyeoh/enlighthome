@@ -6,7 +6,7 @@ weight: 8
 
 draft: false
 
-description: "60 tablets /bottle"
+description: "(60 tablets/bottle)(Twin pack)"
 folder: "h"
 images:
   - image: "images/products/h/1.webp"
@@ -21,4 +21,4 @@ images:
   - image: "images/products/h/10.webp"
 ---
 
-60 tablets /bottle
+(60 tablets/bottle)(Twin pack)
