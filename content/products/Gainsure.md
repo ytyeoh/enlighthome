@@ -6,7 +6,7 @@ weight: 6
 
 draft: false
 
-description: "A Toast for Your Health. High-Grade Nutritious Milk from New Zealand Dairy Farms."
+description: "850g"
 folder: "f"
 images:
   - image: "images/products/f/1.webp"
@@ -17,4 +17,4 @@ images:
   - image: "images/products/f/6.webp"
 ---
 
-A Toast for Your Health. High-Grade Nutritious Milk from New Zealand Dairy Farms.
+850g
