@@ -6,7 +6,7 @@ weight: 2
 type: "products"
 draft: false
 
-description: "The answer for a young and energetic heart!"
+description: "(30 vegecaps/bottle)(Triple pack)"
 folder: "b"
 images:
   - image: "images/products/b/1.webp"
@@ -21,4 +21,4 @@ images:
   - image: "images/products/b/10.webp"
 ---
 
-The answer for a young and energetic heart!
+(30 vegecaps/bottle)(Triple pack)
