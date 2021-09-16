@@ -6,7 +6,7 @@ weight: 8
 
 draft: false
 
-description: "Strengthening bones & teeth, restore your active life!"
+description: "60 tablets /bottle"
 folder: "h"
 images:
   - image: "images/products/h/1.webp"
@@ -21,4 +21,4 @@ images:
   - image: "images/products/h/10.webp"
 ---
 
-Strengthening bones & teeth, restore your active life!
+60 tablets /bottle
