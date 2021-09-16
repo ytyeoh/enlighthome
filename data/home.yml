@@ -62,8 +62,9 @@ product:
 ### contact ###
 contact:
   enable: true
-  title: "Contact Us ~ HMS CONCEPT SDN.BHD"
-  email: "hms@hmsconcept.com.my"
+  title: "Contact Us"
+  sub-title: "HMS CONCEPT SDN.BHD"
+  email: "hmsc16220@yahoo.com / hms@hmsconcept.com.my"
   phone: "017-4000562"
 ###FOOTER###
 footer:
