@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "Bitterness brings you a healthier life!"
+description: "60 vegecaps / bottle"
 folder: "e"
 images:
   - image: "images/products/e/1.webp"
@@ -18,4 +18,4 @@ images:
   - image: "images/products/e/6.webp"
 ---
 
-Bitterness brings you a healthier life!
+60 vegecaps / bottle
