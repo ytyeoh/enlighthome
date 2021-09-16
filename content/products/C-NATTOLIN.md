@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "The Out-Standing Warrior In Combating High Cholesterol And Taking Care Of Your Heart!"
+description: "(30 vegecaps/bottle)(Tripack)"
 folder: "a"
 images:
   - image: "images/products/a/1.webp"
@@ -18,4 +18,4 @@ images:
   - image: "images/products/a/6.webp"
 ---
 
-The Out-Standing Warrior In Combating High Cholesterol And Taking Care Of Your Heart!
+(30 vegecaps/bottle)(Tripack)
