@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "The Most Versatile Nutrient for the Eyes & Skin."
+description: "(30 capsules/bottle）(Triple pack）"
 folder: "d"
 images:
   - image: "images/products/d/1.webp"
@@ -22,4 +22,4 @@ images:
   - image: "images/products/d/10.webp"
 ---
 
-The Most Versatile Nutrient for the Eyes & Skin.
+(30 capsules/bottle）(Triple pack）
