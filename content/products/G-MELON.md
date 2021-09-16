@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "60 vegecaps / bottle"
+description: "(60 vegecaps/bottle)(twin pack)"
 folder: "e"
 images:
   - image: "images/products/e/1.webp"
@@ -18,4 +18,4 @@ images:
   - image: "images/products/e/6.webp"
 ---
 
-60 vegecaps / bottle
+(60 vegecaps/bottle)(twin pack)
