@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "A Sincere Recipe for Your Health!"
+description: "850g"
 folder: "a"
 images:
   - image: "images/products/c/1.webp"
@@ -16,4 +16,4 @@ images:
   - image: "images/products/c/4.webp"
 ---
 
-A Sincere Recipe for Your Health!
+850g
