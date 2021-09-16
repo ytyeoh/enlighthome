@@ -6,7 +6,7 @@ weight: 7
 
 draft: false
 
-description: "Answer for your successful aging & your active life Strengthening bones & joints, restoring your active life!"
+description: "150g"
 folder: "g"
 images:
   - image: "images/products/g/1.webp"
@@ -23,4 +23,4 @@ images:
   - image: "images/products/g/12.webp"
 ---
 
-Answer for your successful aging & your active life Strengthening bones & joints, restoring your active life!
+150g
