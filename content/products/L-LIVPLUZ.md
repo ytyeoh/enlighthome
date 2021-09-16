@@ -6,7 +6,7 @@ weight: 9
 
 draft: false
 
-description: "Natural liver supporter! A stronger liver for a healthier life!"
+description: "60 vegecaps / bottle"
 folder: "i"
 images:
   - image: "images/products/i/1.webp"
@@ -17,4 +17,4 @@ images:
   - image: "images/products/i/6.webp"
 ---
 
-Natural liver supporter! A stronger liver for a healthier life!
+60 vegecaps / bottle
