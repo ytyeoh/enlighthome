@@ -6,7 +6,7 @@ weight: 10
 
 draft: false
 
-description: "Secret to make your nerves system stronger!"
+description: "30 vege capsules/bottle"
 folder: "j"
 images:
   - image: "images/products/j/1.webp"
@@ -20,4 +20,4 @@ images:
   - image: "images/products/j/9.webp"
 ---
 
-Secret to make your nerves system stronger!
+30 vege capsules/bottle
