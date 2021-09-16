@@ -6,7 +6,7 @@ weight: 10
 
 draft: false
 
-description: "30 vege capsules/bottle"
+description: "(30 vege capsules/bottle）(Triple pack)"
 folder: "j"
 images:
   - image: "images/products/j/1.webp"
@@ -20,4 +20,4 @@ images:
   - image: "images/products/j/9.webp"
 ---
 
-30 vege capsules/bottle
+(30 vege capsules/bottle）(Triple pack)
