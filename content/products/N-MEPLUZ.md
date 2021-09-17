@@ -20,4 +20,4 @@ images:
   - image: "images/products/j/9.webp"
 ---
 
-(30 vege capsules/bottle）(Triple pack)
+(30 vegecaps/bottle）(Triple pack)

@@ -760,7 +760,7 @@ margin-bottom:12px;
 
 #product img{
 	width:  300px;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 .dropdown-menu {
@@ -769,6 +769,12 @@ margin-bottom:12px;
 .navbar-inverse .navbar-nav > .open > a {
     background: none;
     color: black;
+}
+.font2x {
+	font-size: 2rem;
+}
+.box_inner{
+	text-transform: capitalize;
 }
 /**
   MEDIA QUERIES

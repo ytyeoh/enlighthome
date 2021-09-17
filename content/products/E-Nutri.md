@@ -22,4 +22,4 @@ images:
   - image: "images/products/d/10.webp"
 ---
 
-(30 capsules/bottle）(Triple pack）
+(30 capsules/bottle)(Triple pack）
