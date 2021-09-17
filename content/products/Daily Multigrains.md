@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "850g"
+description: "850g/Bottle"
 folder: "a"
 images:
   - image: "images/products/c/1.webp"
@@ -16,4 +16,4 @@ images:
   - image: "images/products/c/4.webp"
 ---
 
-850g
+850g/Bottle
