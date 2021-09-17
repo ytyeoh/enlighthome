@@ -6,7 +6,7 @@ weight: 7
 
 draft: false
 
-description: "150g"
+description: "15 sac/Box"
 folder: "g"
 images:
   - image: "images/products/g/1.webp"
@@ -23,4 +23,4 @@ images:
   - image: "images/products/g/12.webp"
 ---
 
-150g
+15 sac/Box
