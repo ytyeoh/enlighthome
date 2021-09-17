@@ -6,7 +6,7 @@ weight: 6
 
 draft: false
 
-description: "850g"
+description: "850g/Bottle"
 folder: "f"
 images:
   - image: "images/products/f/1.webp"
@@ -17,4 +17,4 @@ images:
   - image: "images/products/f/6.webp"
 ---
 
-850g
+850g/Bottle
