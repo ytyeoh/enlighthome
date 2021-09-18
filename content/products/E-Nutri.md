@@ -2,7 +2,7 @@
 title: "E-Nutri"
 img: "E-Nutri.webp"
 date: 2020-03-04T19:18:46-06:00
-weight: 4
+weight: 6
 type: "products"
 
 draft: false
