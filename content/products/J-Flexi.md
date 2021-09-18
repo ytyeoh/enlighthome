@@ -2,7 +2,7 @@
 title: "J-FLEXI"
 img: "J-FLEXI.webp"
 date: 2020-03-04T19:18:46-06:00
-weight: 7
+weight: 10
 
 draft: false
 
