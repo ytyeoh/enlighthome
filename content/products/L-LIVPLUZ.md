@@ -2,7 +2,7 @@
 title: "L-LIVPLUZ"
 img: "L-LIVPLUZ.webp"
 date: 2020-03-04T19:18:46-06:00
-weight: 9
+weight: 8
 
 draft: false
 
