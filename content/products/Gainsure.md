@@ -2,7 +2,7 @@
 title: "Gainsure Plus+"
 img: "Gainsure Plus+.webp"
 date: 2020-03-04T19:18:46-06:00
-weight: 6
+weight: 4
 
 draft: false
 
