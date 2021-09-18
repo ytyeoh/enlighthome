@@ -117,6 +117,12 @@ border-radius:0px;
 	box-shadow: inset 0px 0px 0px 3px #fff;
 	background: transparent;
 }
+.navbar-brand{
+	margin-top:  0px!important;
+}
+.navbar-brand img{
+	height:  100px;
+}
 .panel {
 	margin-bottom: 0px;
 	background-color: transparent;
