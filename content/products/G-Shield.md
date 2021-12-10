@@ -1,12 +1,12 @@
 ---
-title: "G-Shield"
+title: "G-SHIELD PLUS"
 img: "G-Shield.webp"
 date: 2020-03-04T19:18:46-06:00
 weight: 10
 
 draft: false
 
-description: "(30 vege capsules/bottle）(Triple pack)"
+description: "(20 Sac/ Box）(Triple pack)"
 folder: "j"
 images:
   - image: "images/products/k/1.webp"
@@ -20,4 +20,4 @@ images:
   - image: "images/products/k/9.webp"
 ---
 
-(30 vegecaps/bottle）(Triple pack)
+(20 Sac/ Box）(Triple pack)
