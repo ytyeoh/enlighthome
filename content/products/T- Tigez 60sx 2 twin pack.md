@@ -1,22 +1,22 @@
 ---
-title: "T- Tigez 60sx 2 twin pack"
-img: "C-NATTOLIN.webp"
+title: "T- Tigez"
+img: "T-Tigez.webp"
 date: 2023-19-05T19:18:46-06:00
 weight: 14
 type: "products"
 
 draft: false
 
-description: "T- Tigez 60sx 2 twin pack"
+description: "60sx 2 twin pack"
 folder: "l"
 images:
-  - image: "images/products/l/1.webp"
-  - image: "images/products/l/2.webp"
-  - image: "images/products/l/3.webp"
-  - image: "images/products/l/4.webp"
-  - image: "images/products/l/5.webp"
-  - image: "images/products/l/6.webp"
-  - image: "images/products/l/7.webp"
+  - image: "images/products/n/1.webp"
+  - image: "images/products/n/2.webp"
+  - image: "images/products/n/3.webp"
+  - image: "images/products/n/4.webp"
+  - image: "images/products/n/5.webp"
+  - image: "images/products/n/6.webp"
+  - image: "images/products/n/7.webp"
 ---
 
-T- Tigez 60sx 2 twin pack
+60sx 2 twin pack

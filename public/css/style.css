@@ -850,3 +850,6 @@ font-size:13px;
 	font-weight: 400;
 }
 }
+time{
+  text-transform: uppercase;
+}

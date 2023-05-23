@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "O-CAL PLUS"
+description: "(60 tablets/ Bottle) (Twin Pack)"
 folder: "l"
 images:
   - image: "images/products/l/1.webp"
@@ -24,4 +24,4 @@ images:
   - image: "images/products/l/12.webp"
 ---
 
-O-CAL PLUS
+(60 tablets/ Bottle) (Twin Pack)

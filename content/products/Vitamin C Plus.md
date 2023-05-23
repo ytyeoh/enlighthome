@@ -7,7 +7,7 @@ type: "products"
 
 draft: false
 
-description: "Vitamin C Plus"
+description: "(60 capsules/Bottles) ( Twin pack)"
 folder: "m"
 images:
   - image: "images/products/m/1.webp"
@@ -24,4 +24,4 @@ images:
   - image: "images/products/m/12.webp"
 ---
 
-Vitamin C Plus
+(60 capsules/Bottles) ( Twin pack)
