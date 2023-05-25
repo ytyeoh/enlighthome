@@ -19,4 +19,4 @@ images:
   - image: "images/products/n/7.webp"
 ---
 
-60sx 2 twin pack
+(60 Capsules/Bottles) ( Twin Pack)
