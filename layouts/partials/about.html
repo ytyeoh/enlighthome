@@ -20,14 +20,14 @@
             </picture>
         </div>
         <div class="ehs-content container2">
-            <div class="ehs-image aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
+            <div class="ehs-image" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
             	{{$img := index .img 1}}
                 <picture>
                     <source srcset="/images/{{ $img.desktop }}.png" type="image/webp">
                     <img src="/images/{{ $img.desktop }}.png" type="image/png">
                 </picture>
             </div>
-            <div class="ehs-text aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
+            <div class="ehs-text " data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
                 <h3>{{ .title }}</h3>
                 <p>{{ .desc | safeHTML }}</p>
             </div>
