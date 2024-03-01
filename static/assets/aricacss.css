@@ -287,10 +287,10 @@ h3 {
 }
 
 .main-kv-wrap {
-    background-image: url("../images/main.png");
+    background-image: url("../images/main-D.jpeg");
     background-image: image-set(
-        "../images/main.webp" type("image/webp") 1x,
-        "../images/main.png" type("image/jpeg") 1x
+        "../images/main-D.webp" type("image/webp") 1x,
+        "../images/main-D.jpeg" type("image/jpeg") 1x
     );
     background-size: cover;
     background-repeat: no-repeat;
