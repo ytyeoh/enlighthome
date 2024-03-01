@@ -1,6 +1,8 @@
 ### HERO ###
 hero:
   enable: true
+  title: "MAKE THE MOST OF IT"
+  desc: 'More space, more time, more joy...<br>all yours for the asking at Arica.'
   blocks:
     - title: "Our Role."
       desc: "Maximize the return of your property."
@@ -36,22 +38,35 @@ main:
 ### ABOUT ###
 about:
   enable: true
-  title: "About Us"
-  desc: "HMS’ products help people to be their best.
-  <br><br>HMS Concept – (Health Management Store Concept) have combined scientific evidence with traditional knowledge to offer people a more natural approach to health. We use high quality natural ingredients sourced from around the world and all products manufactured by leading company and has been certified GMP. As a company and as individuals, we strive to make a difference in everything from the products and services we offer to our commitment to environmental sustainability.
-  <br><br>Based on the vision of naturopath, we are passionate about natural health and inspiring people to invest and take control in their wellbeing. We develop products and services that deliver a more natural approach to health, based on our expertise in vitamins, minerals, herbs and nutrients. We proudly offer unrivalled services to our retail partners through our commitment to training and education, and to individual consumers through our free advisory service– a trusted health and wellbeing resource.
-  <br><br>The quality of our products and healthy living of the society have always been our main concerns. We strongly believe in the importance of diet and nutrition naturally improves overall health and resistance to sickness. Thus, our full-fledged team is always ready to provide our expertise corresponds to customers’ needs and strike for excellence.
-  <br><br>HMS Concept is committed to superior business performance. Our strategic direction is focused on delivering growth and continuous improvement to maintain HMS’ leading position and to achieve ongoing success for our company and partner."
-  blocks:
-    - title: "Admin"
-      desc: "All sorts of Documentation. Such as Proper Filing System, Noticing, Facility Booking, Collections."
-      icon: "fa fa-user"
-    - title: "Operation"
-      desc: "Quick respond on problem solving. Experience crew handle complaints defects, SOP."
-      icon: "fa fa-home"
-    - title: "Accounts"
-      desc: "Owner Account tracking, operating expenses within budgeting. Effectiveness of maintaining."
-      icon: "fa fa-desktop"
+  title: "Project Name"
+  desc: "We have established a mutually beneficial agreement to utilize an international branding franchise for the operation of the proposed hotel.<br><br>Conveniently located in the Jalan Ong Yi How area, just off Jalan Raja Uda in Butterworth, Penang, this property strategically positions itself near attractions and diverse dining options. <br><br>Envisioned as a 3-plus-star establishment, this high-quality property aims to offer guests access to a restaurant, conference facilities, a fitness center, and a rooftop outdoor pool. Situated only few km away from the Penang Bridge and the surroundings of Jalan Raja Uda, this location serves as a convergence point for businesses, offices, entertainment, food and beverages, and local amenities, providing a comprehensive solution for various needs in one centralized hub.<br><br>For our serviced apartment, we offer both single-key and dual-key options. Additionally, guests can choose between a sea view or a city view. "
+  img:
+    - desktop: "3d"
+      mobile: "3d"
+    - desktop: "map"
+      mobile: "map"
+      
+### FACILITIES ###
+facilities:
+  enable: true
+  board:
+    - 'gym'
+    - 'pool'
+    - 'shop'
+     
+  item:
+    - title: 'pool'
+      subtitle: 'Workout, unwind and recharge'
+      desc: 'ewfwef ewfe'
+      img: 'pool'
+    - title: 'shop'
+      subtitle: 'Workout, unwind and recharge'
+      desc: 'ewfwef ewfe'
+      img: 'shop'
+    - title: 'gym'
+      subtitle: 'Workout, unwind and recharge'
+      desc: 'ewfwef ewfe'
+      img: 'gym'
 
 ### product ###
 product:
@@ -75,8 +90,8 @@ footer:
   whatapps: "017-4000562"
   phone: "04-229 9144"
   email: "info@abc.com"
-  facebook: "https://www.facebook.com/HMSC16220/"
-  instagram: "https://www.instagram.com/hmsconcept.my/"
+  facebook: "https://www.facebook.com//"
+  instagram: "https://www.instagram.com//"
 ### Call to Action ###
 cta:
   enable: true

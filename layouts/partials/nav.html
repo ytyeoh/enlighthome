@@ -1,26 +1,5 @@
-<!-- Fixed navbar -->
-  <div class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- Button for smallest screens -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="/">
-          <img src="/images/logo.webp" alt="Techro HTML5 template"></a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav pull-right mainNav">
-          <li class="active"><a href="/">Home</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-	        	{{ range first 20 (where site.RegularPages "Type" "products") }}
-		        	<li><a href="{{.Permalink}}">{{.Title}}</a></li>
-            {{end}}
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
+<header>
+    <div class="logo-wrap aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
+        <a href="/"><img src="/img/logo.png"></a>
     </div>
-  </div>
-  <!-- /.navbar -->
+</header>

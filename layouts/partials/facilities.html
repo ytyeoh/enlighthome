@@ -1,0 +1,86 @@
+{{ if .Site.Data.home.facilities.enable }}
+{{with .Site.Data.home.facilities}}
+	<section class="third-sec">
+	    <div class="privatepeaceful-wrap">
+	        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper pp-carousel-top swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+				<div class="pp-nav-wrapper">
+			        <div class="swiper-button-next pp-next-btm" ></div>
+			        <div class="swiper-button-prev pp-prev-btm" ></div>
+			    </div>
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+			    <!-- Slides -->
+			    {{ range  .board}}
+				    <div class="swiper-slide">
+				    	<picture class="img-mobile-hide">
+				            <source srcset="./images/facilities/{{ . }}.png" type="image/png">
+				            <img src="./images/facilities/{{ . }}.png" type="image/png">
+				        </picture>
+				        <picture class="img-mobile-show">
+				            <source srcset="./images/facilities/{{ . }}.png" type="image/png">
+				            <img src="./images/facilities/{{ . }}.png" type="image/png">
+				        </picture>
+				    </div>
+			    {{ end }}
+			  </div>
+
+		   </div>
+		</div>
+
+
+
+	       <div thumbsslider="" class="swiper pp-carousel-btm swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight swiper-backface-hidden">
+			  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper pp-carousel-btm-wrapper">
+			    <!-- Slides -->
+			    {{ range  .item}}
+			    <div class="swiper-slide">
+			    	<div class="pp-content pp-hide">
+				        <div class="pp-left">
+				            <picture>
+				                <source srcset="./images/facilities/{{ .img }}.png" type="image/png">
+				                <img src="./images/facilities/{{ .img }}.png" type="image/png">
+				            </picture>
+				        </div>
+				        <div class="pp-right">
+				            <h3>{{ .title }}</h3>
+				            <p class="p-subtitle">{{ .subtitle }}</p>
+				            <p class="p-minus">{{ .desc }}.</p>
+				        </div>
+				    </div>
+				    <div class="pp-content pp-show">
+				        <div class="pp-left">
+				            <picture>
+				                <source srcset="./images/facilities/{{ .img }}.png" type="image/png">
+				                <img src="./images/facilities/{{ .img }}.png" type="image/png">
+				            </picture>
+				        </div>
+				        <div class="pp-left">
+				            <picture>
+				                <source srcset="./images/facilities/{{ .img }}.png" type="image/png">
+				                <img src="./images/facilities/{{ .img }}.png" type="image/png">
+				            </picture>
+				        </div>
+				    </div>
+			    </div>
+			    {{ end }}
+			  </div>
+
+			  <div class="swiper-pagination pp-pagination-btm swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+
+		        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+			</div>
+	      
+	    </div>
+	    
+
+	    <div class="bg-pattern2">
+	        <picture>
+	            <source srcset="./assets/bg_pattern2.png" type="image/png">
+	            <img src="./assets/bg_pattern2.png" type="image/png">
+	        </picture>
+	    </div>
+
+	</section>
+{{ end }}
+{{ end }}

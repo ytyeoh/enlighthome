@@ -6,13 +6,71 @@
   {{ $title_plain := .Title | markdownify | plainify }}
   <title>{{ $title_plain }}</title>
   <link rel="favicon" href="/images/favicon.png">
-  <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <!-- Custom styles for our template -->
-  <link rel="stylesheet" href="/css/bootstrap-theme.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="/css/da-slider.css" />
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="./assets/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./assets/aricacss.css">
+	<link rel="stylesheet" href="./assets/contact-form-minisite.css">
+	<link rel="stylesheet" href="./assets/aos.css">
+	<style>
+        .container_suc {
+            display: flex;
+            justify-content: center;
+            visibility: hidden;
+        }
+
+        .center_suc {
+            width: 100%;
+            padding: 15px;
+            background: green;
+            color: #fff;
+            font-weight: bold;
+            font-family: Tahoma;
+        }
+
+        .container_ero {
+            display: flex;
+            justify-content: center;
+            visibility: hidden;
+            animation: fadeOut 2s forwards;
+            animation-delay: 3s;
+        }
+
+        .center_ero {
+            width: 100%;
+            padding: 15px;
+            background: #FF0000;
+            color: #fff;
+            font-weight: bold;
+            font-family: Tahoma;
+        }
+
+        .container_dup {
+            display: flex;
+            justify-content: center;
+            visibility: hidden;
+            animation: fadeOut 2s forwards;
+            animation-delay: 3s;
+        }
+
+        .center_dup {
+            width: 100%;
+            padding: 15px;
+            background: #FF0000;
+            color: #fff;
+            font-weight: bold;
+            font-family: Tahoma;
+        }
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>

@@ -1,0 +1,481 @@
+.contact-form-minisite,
+.footer-bar-minisite,
+.footer-minisite {
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    font-family: "Avenir", sans-serif !important;
+}
+
+.cfm-btn {
+    font-family: "Avenir", sans-serif !important;
+}
+
+/*Contact Form*/
+.contact-form-minisite {
+    background: #fff;
+    border-top: 1px solid #b85915;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.cfm-input {
+    color: #333;
+}
+
+.cfm-title {
+    color: #333;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cfm-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cfm-input {
+    float: left;
+    width: 275px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.cfm-input.select-style::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/icon_downarrow.png");
+    background-repeat: repeat;
+    background-size: auto;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 17px;
+    top: 15px;
+    z-index: 9;
+    pointer-events: none;
+}
+
+.cfm-input.select-style {
+    width: 100%;
+    position: relative;
+    margin-top: 35px;
+}
+
+.cfm-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 0px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.checkbox-style {
+    border: solid 1px #c3965f;
+}
+
+.cfm-input.wide {
+    width: 650px;
+    max-width: 100%;
+}
+
+.cfm-input input,
+.cfm-input textarea {
+    padding: 40px 0 9px 0;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    color: #333;
+    border-bottom: 1px solid #c3965f;
+    font-family: "Avenir", sans-serif;
+}
+
+.cfm-input input:focus,
+.cfm-input textarea:focus {
+    outline: 0;
+}
+
+.cfm-input input:focus ~ span,
+.cfm-input textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+.cfm-input textarea {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0;
+    resize: none;
+    overflow: hidden;
+}
+
+.cfm-input.textarea-style {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.cfm-form-style {
+    width: 900px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.cfm-input input[type="checkbox"] + label {
+    color: #ccc;
+    font-style: italic;
+}
+
+.cfm-input input[type="checkbox"]:checked + label {
+    color: #f00;
+    font-style: normal;
+}
+
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+select:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label,
+select:valid ~ label {
+    font-size: 0.85em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+    line-height: 17px;
+}
+
+.cfm-radio {
+    color: #999;
+    display: flex;
+    width: 100%;
+    align-items: first baseline;
+    justify-content: start;
+    flex-wrap: nowrap;
+}
+
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #c3965f;
+    border-radius: 2px;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: #c3965f;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.cfm-select select {
+    display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+    border-bottom: 1px solid #c3965f;
+    color: #999;
+    background: #fff;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    background: #fff;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+    padding: 8px 16px 8px 0px;
+
+    cursor: pointer;
+    user-select: none;
+    background: #fff;
+}
+
+.select-items div {
+    padding-left: 20px;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    color: #999;
+    border: 1px solid #c3965f;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover {
+    background-color: #c3965f;
+    color: #fff;
+}
+
+.cfm-btn {
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #c3965f;
+    background: none;
+    border-radius: 4px;
+    color: #c3965f;
+}
+
+.cfm-btn:hover {
+    border: 1px solid #c3965f;
+    background: #c3965f;
+    color: #fff;
+}
+
+.cfm-btn-wrap {
+    margin-top: 30px;
+}
+
+/*scroll-to-top*/
+.scrollToTopBtn {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 48px;
+    width: 48px;
+    text-align: center;
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* keep it at the top of everything else */
+    z-index: 100;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all 0.5s ease;
+}
+
+.showBtn {
+    transform: translateY(0);
+    font-size: 9px;
+    line-height: 15px;
+    color: #333;
+    background: #fff;
+    border-radius: 50%;
+    padding: 12px 6px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.showBtn img {
+    width: 35px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*footer*/
+.footer-minisite {
+    background: #e3cfb6;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #333;
+}
+
+.logo-eno {
+    max-width: 225px;
+    margin: 0 auto;
+}
+
+.footm-wrap {
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footm-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 15px;
+}
+
+.footm-text {
+    font-family: "Avenir-Bold", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.footm-row a {
+    white-space: nowrap;
+}
+
+.footm-phone,
+.footm-email,
+.footm-icons a {
+    max-width: 25px;
+}
+
+.footm-icons a {
+    display: block;
+    white-space: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footm-phone-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.footm-email-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.footm-phone-wrap a,
+.footm-email-wrap a {
+    padding-left: 7px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footm-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.fbm-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-sitemap a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: #fff;
+}
+
+/*footer-bar*/
+.footer-bar-minisite {
+    background: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+/*responsive*/
+@media (max-width: 991px) {
+    .contact-form-minisite .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cfm-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    .footm-wrap {
+        width: auto;
+    }
+
+    .right-copyright {
+        padding-top: 25px;
+    }
+
+    .footer-bar-minisite {
+        font-size: 11px;
+    }
+
+    .cfm-input.select-style {
+        margin-top: 38px;
+    }
+
+    .textarea-style {
+        margin-top: 5px;
+    }
+
+    .cfm-radio label {
+        padding-left: 8px;
+        padding-bottom: 8px;
+    }
+
+    .logo-eno {
+        max-width: 185px;
+    }
+
+    .footm-email-wrap {
+        padding-top: 8px;
+    }
+}
+
+@media (max-width: 428px) {
+    .scrollToTopBtn {
+        bottom: 15%;
+    }
+}

@@ -1,4 +1,7 @@
 # baseURL = 'https://hmsconcept.com.my/demo/'
 baseURL = '/'
 languageCode = 'en-us'
-title = 'HMS concept'
+title = 'Enlight Home'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

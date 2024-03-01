@@ -1,22 +1,22 @@
 {{ if .Site.Data.home.hero.enable }}
 {{with .Site.Data.home.hero}}
 
-<!-- Header -->
-	<header id="head">
-		<!-- <div class="container">
-			<div class="banner-content">
-				<div id="da-slider" class="da-slider">
-					{{ range .blocks }}
-					<div class="da-slide">
-						<h2>{{.title}}</h2>
-						<p>{{.desc}}</p>
-						<div class="da-img"></div>
-					</div>
-					{{ end }}
-				</div>
-			</div>
-		</div> -->
-	</header>
-	<!-- /Header -->
+<section class="first-sec">
+        <div class="main-kv-wrap aos-init aos-animate" data-aos="fade-up" data-aos-duration="1800" data-aos-once="true"></div>
+        <div class="ehs-headline container aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-delay="500" data-aos-once="true">
+            <h1>{{.title}}</h1>
+            <p class="p-subtitle increase-p">{{.desc| safeHTML}}</p>
+
+            <div class="dd-icon btn-pulse aos-init aos-animate" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-delay="1850" data-aos-once="true" data-aos-anchor-placement="bottom">
+                <a href="/#arica-front"><img src="./assets/icon_arrow2.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-sec">
+        <div class="executive-homes-wrap">
+
+        </div>
+    </section>
 {{ end }}
 {{ end }}

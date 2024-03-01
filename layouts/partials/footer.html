@@ -1,14 +1,48 @@
 {{with .Site.Data.home.footer}}
- <footer id="footer">
+<section class="footer-minisite">
     <div class="container">
-      <div class="social text-center">
-        <a href="{{.instagram}}"><i class="fa fa-instagram fa-4x"></i></a>
-        <a href="{{.facebook}}"><i class="fa fa-facebook fa-4x"></i></a>
-        <p>Copyright &copy; {{ now.Format "2006"}}.</p>
-      </div>
-
-      <div class="clear"></div>
-      <!--CLEAR FLOATS-->
+        <div class="logo-eno">
+            <a href="/#"><img src="./img/logo.png"></a>
+        </div>
+        <div class="footm-wrap">
+            <div class="footm-text">FOR FURTHER ENQUIRIES, PLEASE CONTACT:</div>
+            <div class="footm-row">
+                <div class="footm-phone-wrap">
+                    <div class="footm-phone">
+                        <img src="./assets/icon_phone.png">
+                    </div>
+                    <a href="tel:+6032345435" target="_blank">+603 xxx xxxx</a>
+                </div>
+                <div class="footm-email-wrap">
+                    <div class="footm-email">
+                        <img src="./assets/icon_email.png">
+                    </div>
+                    <a href="mailto:corp.comm@abc.com" target="_blank">corp.comm@abc.com</a>
+                </div>
+            </div>
+            <div class="footm-icons">
+                <a href="{{.facebook}}" target="_blank"><img src="./assets/icon_socialfb.png"></a>
+                <a href="{{.instagram}}" target="_blank"><img src="./assets/icon_socialinst.png"></a>
+            </div>
+        </div>
     </div>
+
+</section>
+<section class="footer-bar-minisite">
+    <div class="container">
+        <div class="fbm-row">
+            <div class="left-sitemap">
+                <a href="contact.php" target="_blank">CONTACT</a>
+                <a href="disclaimer.php" target="_blank">DISCLAIMER &amp; PRIVACY</a>
+                <a href="apdl.php" target="_blank">APDL</a>
+            </div>
+            <div class="right-copyright">
+                © {{ now.Format "2006"}}. COMPAMY. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </div>
+
+</section>
+ 
   </footer>
   {{ end }}

@@ -1,13 +1,44 @@
 {{ if .Site.Data.home.about.enable }}
 {{with .Site.Data.home.about}}
-   <section class="container">
-        <div class="heading">
-            <!-- Heading -->
-            <h2>{{.title}}</h2>
+   <section class="second-cont-sec">
+        <div id="executive-homes">
+
+            <div id="arica-front"></div>
+
+            {{$img := index .img 0}}
+
+            <picture class="img-mobile-hide">
+               
+                <source srcset="/images/{{ $img.desktop }}.webp" type="image/webp">
+                <img src="/images/{{ $img.desktop }}.png" type="image/png">
+            </picture>
+
+            <picture class="img-mobile-show">
+             
+                <source srcset="/images/{{ $img.mobile }}.webp" type="image/webp">
+                <img src="/images/{{ $img.mobile }}.png" type="image/png">
+            </picture>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p>{{.desc | safeHTML }}</p>
+        <div class="ehs-content container2">
+            <div class="ehs-image aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
+            	{{$img := index .img 1}}
+                <picture>
+                    <source srcset="/images/{{ $img.desktop }}.png" type="image/webp">
+                    <img src="/images/{{ $img.desktop }}.png" type="image/png">
+                </picture>
+            </div>
+            <div class="ehs-text aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-out" data-aos-once="true">
+                <h3>{{ .title }}</h3>
+                <p>{{ .desc | safeHTML }}</p>
+            </div>
+        </div>
+
+        <div class="bg-pattern-wrap">
+            <div class="bg-pattern">
+                <picture>
+                    <source src="./assets/bg_pattern3.png" type="image/png">
+                    <img src="./assets/bg_pattern3.png" type="image/png">
+                </picture>
             </div>
         </div>
     </section>
