@@ -7,10 +7,14 @@
   <title>{{ $title_plain }}</title>
   <link rel="favicon" href="/images/favicon.png">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	<link rel="stylesheet" href="./assets/swiper-bundle.min.css">
-	<link rel="stylesheet" href="./assets/aricacss.css">
-	<link rel="stylesheet" href="./assets/contact-form-minisite.css">
-	<link rel="stylesheet" href="./assets/aos.css">
+  <link rel="preload" href="./assets/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./assets/swiper-bundle.min.css"></noscript>
+	<link rel="preload" href="./assets/contact-form-minisite.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./assets/contact-form-minisite.css"></noscript>
+	<link rel="preload" href="./assets/aricacss.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./assets/aricacss.css"></noscript>
+	<link rel="preload" href="/assets/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="/assets/aos.css"></noscript>
 	<style>
         .container_suc {
             display: flex;

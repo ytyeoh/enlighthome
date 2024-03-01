@@ -24,42 +24,49 @@ html {
     font-family: "Avenir";
     font-weight: normal;
     src: url(../fonts/avenir-roman.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Avenir-Medium";
     font-weight: normal;
     src: url(../fonts/avenir-medium.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Avenir-Bold";
     font-weight: normal;
     src: url(../fonts/avenir-bold.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "SweetSans";
     font-weight: normal;
     src: url(../fonts/sweetsans-bold.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: normal;
     src: url(../fonts/inter-regular.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter-Light";
     font-weight: normal;
     src: url(../fonts/inter-light.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter-Italic";
     font-weight: normal;
     src: url(../fonts/inter-italic.otf);
+    font-display: swap;
 }
 
 body {
