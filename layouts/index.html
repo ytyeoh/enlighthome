@@ -211,7 +211,8 @@
                             <option value="ANDAMAN">ANDAMAN</option>
                             <option value="The Meg">THE MEG</option>
                         </select>
-                    <div class="select-selected">ARICA</div><div class="select-items select-hide"><div>ARICA</div><div>ANDAMAN</div><div>THE MEG</div></div></div>
+                    
+	                </div>
 
 
                 </div>
@@ -225,15 +226,15 @@
 
                 <div class="cfm-radio-wrap">
                     <label class="cfm-radio">
-                        <input type="checkbox" checked="" class="checkbox-style" required="">
+                        <input type="checkbox"  class="checkbox-style">
                         <span class="checkmark"></span>
-                        I hereby agree to receive updates and communications from E&amp;O.
+                        I hereby agree to receive updates and communications from EnlightHome.
                     </label>
 
                     <label class="cfm-radio">
-                        <input type="checkbox" checked="" required="">
+                        <input type="checkbox"  required="">
                         <span class="checkmark"></span>
-                        <div>I have read and agree to the <a href="https://www.easternandoriental.com/disclaimer.php" target="_blank" class="cfm-termscond"> COMPAMYPrivacy Policy and Terms and Conditions.</a>
+                        <div>I have read and agree to the <a href="/disclaimer" target="_blank" class="cfm-termscond"> COMPAMYPrivacy Policy and Terms and Conditions.</a>
                         </div>
                     </label>
 
@@ -254,6 +255,8 @@
         </div>
     </section>
 	{{ partial "footer.html" . }}
+
+	{{ partial "preloader.html" . }}
 	{{ partial "script.html" . }}
    
 

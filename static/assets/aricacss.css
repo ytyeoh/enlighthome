@@ -100,10 +100,10 @@ body.revealscroll {
     background-size: cover;
     height: 100%;
     z-index: 9999;
-    background-image: url("../img/bg_preloader.webp");
+    background-image: url("/images/bg_preloader.webp");
     background-image: image-set(
-        "../img/bg_preloader.webp" type("image/webp") 1x,
-        "../img/bg_preloader.jpg" type("image/jpeg") 1x
+        "/images/bg_preloader.webp" type("image/webp") 1x,
+        "/images/bg_preloader.jpg" type("image/jpeg") 1x
     );
     background-size: contain;
     display: flex;
